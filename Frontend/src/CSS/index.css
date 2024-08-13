@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background-image: url("https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+.backgroundOne {
+  background-image: url("https://t4.ftcdn.net/jpg/05/42/73/17/360_F_542731787_npIDENXs9NMkl1mtyHKj8De2WBL2vnFW.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.pop {
+  position: absolute;
+  right: 0px;
+  top: 28px;
+  background-color: whitesmoke;
+}
+.balance {
+}
+.AmountEnteredBox {
+  position: absolute;
+}
+.ALL :hover {
+  transition: all;
+  transform: translateY(0.2px);
+  color: red;
+}
+
+input:focus {
+  box-shadow: 1px 1px 5px 5px skyblue;
+}
+input {
+  height: 30px;
+}
+.dashboard {
+  border-radius: 5px;
+  background-color: black;
+}
